@@ -1,0 +1,19 @@
+{
+  "name": "ignite-x_webiste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "--prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kael-coding/IgniteX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kael-coding/IgniteX/issues"
+  },
+  "homepage": "https://github.com/kael-coding/IgniteX#readme"
+}
