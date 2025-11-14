@@ -6,11 +6,11 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "/IgniteX",
-   preview: {
+  preview: {
     host: true,
-    port: process.env.PORT || 4173,
+    port: Number(process.env.PORT || 4173), 
     allowedHosts: [
-      'ignitex-yc7f.onrender.com'
+      'ignitex-yc7f.onrender.com' 
     ]
   }
 });
